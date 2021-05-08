@@ -1,0 +1,22 @@
+﻿  main.cpp
+D:\PROJECTS\IntroGL\IntroGL\main.cpp(3,1): warning C4005: 'GLEW_STATIC': macro redefinition
+D:\PROJECTS\IntroGL\IntroGL\main.cpp : message : see previous definition of 'GLEW_STATIC'
+main.obj : error LNK2019: unresolved external symbol __imp__glClear@4 referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__glClearColor@16 referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glewInit@0 referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetPrimaryMonitor referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetVideoMode referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl glfw_onKey(struct GLFWwindow *,int,int,int,int)" (?glfw_onKey@@YAXPAUGLFWwindow@@HHHH@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwSetWindowTitle referenced in function "void __cdecl showFPS(struct GLFWwindow *)" (?showFPS@@YAXPAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function "void __cdecl showFPS(struct GLFWwindow *)" (?showFPS@@YAXPAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+main.obj : error LNK2001: unresolved external symbol _glewExperimental
+D:\PROJECTS\IntroGL\Debug\IntroGL.exe : fatal error LNK1120: 18 unresolved externals

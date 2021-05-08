@@ -1,0 +1,9 @@
+﻿  main.cpp
+D:\PROJECTS\IntroGL\IntroGL\main.cpp(25,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\PROJECTS\IntroGL\IntroGL\main.cpp(89,52): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\PROJECTS\IntroGL\IntroGL\main.cpp(174,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+D:\PROJECTS\IntroGL\IntroGL\main.cpp(226,94): warning C4244: 'argument': conversion from 'GLuint' to 'GLfloat', possible loss of data
+D:\PROJECTS\IntroGL\IntroGL\main.cpp(226,69): warning C4244: 'argument': conversion from 'GLuint' to 'GLfloat', possible loss of data
+D:\PROJECTS\IntroGL\IntroGL\main.cpp(226,47): warning C4244: 'argument': conversion from 'GLuint' to 'GLfloat', possible loss of data
+D:\PROJECTS\IntroGL\IntroGL\main.cpp(226,22): warning C4244: 'argument': conversion from 'GLuint' to 'GLfloat', possible loss of data
+  IntroGL.vcxproj -> D:\PROJECTS\IntroGL\x64\Debug\IntroGL.exe

@@ -1,5 +1,6 @@
 #include "Camera.h"
 
+// init camera - constructors
 Camera::Camera() {}
 Camera::Camera(glm::vec3 initialPosition, glm::vec3 startUp, GLfloat startYaw, GLfloat startPitch, GLfloat startMoveSpeed, GLfloat startTurnspeed) {
 	position = initialPosition;
@@ -13,7 +14,7 @@ Camera::Camera(glm::vec3 initialPosition, glm::vec3 startUp, GLfloat startYaw, G
 
 	Update();
 }
-
+// camera update
 void Camera::Update() {
 	front.x = cos(glm::radians(yaw) * cos(glm::radians(pitch)) );
 	front.y = sin(glm::radians(pitch));
@@ -24,7 +25,7 @@ void Camera::Update() {
 	up = glm::normalize(glm::cross(right, front));
 
 }
-
+// Handle camera controls
 void Camera::mouseControl(GLfloat xChange, GLfloat yChange) {
 	xChange *= turnSpeed;
 	yChange *= turnSpeed;
